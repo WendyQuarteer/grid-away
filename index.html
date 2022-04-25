@@ -12,7 +12,8 @@
     <title>Grid-Away</title>
 </head>
 <body>
-<div class="container d-flex flex-column flex-md-row">
+
+<div class="container d-flex flex-column flex-sm-row">
     <nav class="navbar navbar-expand-sm navbar-light d-flex flex-sm-column bg-info">
         <button type="button"
                 data-bs-toggle="collapse"
@@ -24,7 +25,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse w-100 my-4 " id="navbarSupportedContent">
             <ul class="navbar-nav w-100 d-flex flex-sm-column text-center text-sm-end">
                 <li>
                     <a href="#" class="nav-link" aria-current="page">Home</a>
@@ -39,123 +40,187 @@
         </div>
     </nav>
 
-<div class="container">
-    <div class="row row-cols-1 row-cols-md-4 g-3">
-        <div class="col">
-            <div class="card text-center my-4 h-100" style="width: 18rem">
-                <img src="pictures/Maya-Bay Thailand.jpeg" class="card-img-top" alt="Beach Thailand: Maya Bay">
-                <div class="card-body">
-                    <h5 class="card-title">Maya Bay, Thailand</h5>
-                    <p class="card-text">Cliffs tower more than 100 metres above this bay, lush greenery provides the
-                        backdrop and soft white sand leads down to crystal clear water – pure paradise.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.youtube.com/watch?v=MbheYh3A_8Y" class="btn btn-primary">Thailand</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card text-center my-4 h-100" style="width: 18rem">
-                <img src="pictures/Dalawella-Beach Sri-Lanka.jpg" class="card-img-top" alt="Beach Sri Lanka: Dalawella Beach">
-                <div class="card-body">
-                    <h5 class="card-title">Dalawella Beach, Sri Lanka</h5>
-                    <p class="card-text">Palm trees bend over the golden sand that leads down to the wavy turquoise
-                        water. This stretch of sand is primarily known for its insta-famous rope swing.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.youtube.com/watch?v=MbheYh3A_8Y" class="btn btn-primary">Sri Lanka</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card text-center my-4 h-100" style="width: 18rem">
-                <img src="pictures/Maldives.jpg" class="card-img-top" alt="Beach Maldives: Dhigurah Island">
-                <div class="card-body">
-                    <h5 class="card-title">Dhigurah Island, Maldives</h5>
-                    <p class="card-text">you’re unlikely to find a beach that you wouldn’t describe as perfect here.
-                        You’ll instantly conjure up images of the water bungalows that sit atop the turquoise sea that
-                        laps the white sand.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.youtube.com/watch?v=MbheYh3A_8Y" class="btn btn-primary">Maldives</a>
+  <div class="container">
+    <div class="wrapper d-flex justify-content-center">
+        <img class="img-responsive" src="pictures/Beach-bg.jpg" alt="bgimage" style="width:100%">
+    </div>
+        <div class="container d-flex justify-content-center align-items-baseline card-img-overlay" align="center">
+        <div class="row row-cols-1 row-cols-sm-4 g-3 d-inline-flex p-2 mt-2" style="width: 65rem">
+              <div class="col">
+                <div class="card text-center my-4 h-100 d-flex flex-column justify-content-between" style="width: 15rem">
+                    <img src="pictures/Maya-Bay Thailand.jpeg" class="card-img-top" alt="Beach Thailand: Maya Bay">
+                    <div class="card-body">
+                        <h6 class="card-title user-select-none">Maya Bay</h6>
+                        <h6 class="card-title user-select-none">Thailand</h6>
+                        <p class="card-text small user-select-none">Cliffs tower above this bay, lush greenery
+                            provides the backdrop and soft white sand leads down to crystal clear water.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://zoom.earth/#view=7.677817,98.76678,17z" class="btn-lg btn-outline-primary
+                        rounded-pill" data-toggle="tooltip" title="view satellite image">Thailand</a>
+                        <div class="tooltip bs-tooltip-top" role="tooltip">
+                            <div class="arrow"></div>
+                            <div class="tooltip-inner">
+                                Thailand
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col">
-            <div class="card text-center my-4 h-100" style="width: 18rem">
-                <img src="pictures/Honopu-Beach Hawaii.jpg" class="card-img-top" alt="Beach Hawai: Honopu Beach">
-                <div class="card-body">
-                    <h5 class="card-title">Honopu Beach, Hawaii</h5>
-                    <p class="card-text">Also goes by the nickname ‘Cathedral Beach.’ The stretch of golden sand is
-                        situated within the Na Pali Coast State Wilderness Park and is the most secluded and remote beach in Hawaii.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.youtube.com/watch?v=MbheYh3A_8Y" class="btn btn-primary">Hawaii</a>
+            <div class="col">
+                <div class="card text-center my-4 h-100 d-flex flex-column justify-content-between" style="width: 15rem">
+                    <img src="pictures/Dalawella-Beach Sri-Lanka.jpg" class="card-img-top" alt="Beach Sri Lanka: Dalawella Beach">
+                    <div class="card-body">
+                        <h6 class="card-title user-select-none">Dalawella Beach</h6>
+                        <h6 class="card-title user-select-none">Sri Lanka</h6>
+                        <p class="card-text small user-select-none">Palm trees bend over the golden sand that leads down to the wavy turquoise water.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://zoom.earth/#view=7.677817,98.76678,17z" class="btn-lg btn-outline-primary
+                        rounded-pill" data-toggle="tooltip" title="view satellite image">Sri Lanka</a>
+                        <div class="tooltip bs-tooltip-top" role="tooltip">
+                            <div class="arrow"></div>
+                            <div class="tooltip-inner">
+                                Thailand
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col">
-            <div class="card text-center my-4 h-100" style="width: 18rem">
-                <img src="pictures/seven-mile-beach Jamaica.jpg" class="card-img-top" alt="Beach Jamaica: Seven Mile">
-                <div class="card-body">
-                    <h5 class="card-title">Seven Mile Beach, Jamaica</h5>
-                    <p class="card-text">Look down the coastline here and white sand is lapped by clear water that
-                        glistens in the sunlight as far as the eye can see.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.youtube.com/watch?v=MbheYh3A_8Y" class="btn btn-primary">Jamaica</a>
+            <div class="col">
+                <div class="card text-center my-4 h-100 d-flex flex-column justify-content-between" style="width: 15rem">
+                    <img src="pictures/Maldives.jpg" class="card-img-top" alt="Beach Maldives: Dhigurah Island">
+                    <div class="card-body">
+                        <h6 class="card-title user-select-none">Dhigurah Island</h6>
+                        <h6 class="card-title user-select-none">Maldives</h6>
+                        <p class="card-text small user-select-none">you’re unlikely to find a beach that you wouldn’t describe as perfect here.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://zoom.earth/#view=7.677817,98.76678,17z" class="btn-lg btn-outline-primary
+                        rounded-pill" data-toggle="tooltip" title="view satellite image">Maldives</a>
+                        <div class="tooltip bs-tooltip-top" role="tooltip">
+                            <div class="arrow"></div>
+                            <div class="tooltip-inner">
+                                Thailand
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col">
-            <div class="card text-center my-4 h-100" style="width: 18rem">
-                <img src="pictures/Sandy-Lane Barbados-with-coconut-palms-and-white-sands.jpg" class="card-img-top" alt="Beach Barbados: Sandy Lane">
-                <div class="card-body">
-                    <h5 class="card-title">Sandy Lane Beach, Barbados</h5>
-                    <p class="card-text">This beach has been described as the ‘playground of the rich and famous’ –
-                        celebrities and royalty have been soaking up the sun on its pure white sand for many years.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.youtube.com/watch?v=MbheYh3A_8Y" class="btn btn-primary">Barbados</a>
+            <div class="col">
+                <div class="card text-center my-4 h-100 d-flex flex-column justify-content-between" style="width: 15rem">
+                    <img src="pictures/Honopu-Beach Hawaii.jpg" class="card-img-top" alt="Beach Hawai: Honopu Beach">
+                    <div class="card-body">
+                        <h6 class="card-title user-select-none">Honopu Beach</h6>
+                        <h6 class="card-title user-select-none">Hawaii</h6>
+                        <p class="card-text small user-select-none">The stretch of golden sand is most secluded and remote beach in Hawaii.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://zoom.earth/#view=7.677817,98.76678,17z" class="btn-lg btn-outline-primary
+                        rounded-pill" data-toggle="tooltip" title="view satellite image">Hawaii</a>
+                        <div class="tooltip bs-tooltip-top" role="tooltip">
+                            <div class="arrow"></div>
+                            <div class="tooltip-inner">
+                                Thailand
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col">
-            <div class="card text-center my-4 h-100" style="width: 18rem">
-                <img src="pictures/Ile-aux-Cerfs-Beach Mauritius.jpg" class="card-img-top" alt="Beach Mauritius: Ile aux Cerfs">
-                <div class="card-body">
-                    <h5 class="card-title">Ile aux Cerfs Beach, Mauritius</h5>
-                    <p class="card-text">you’ll struggle to find a beach that you wouldn’t describe as idyllic. However,
-                        there’s something romantic about this beach, which is situated on an island within the
-                        country’s biggest lagoon and can only be reached by boat.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.youtube.com/watch?v=MbheYh3A_8Y" class="btn btn-primary">Mauritius</a>
+            <div class="col">
+                <div class="card text-center my-4 h-100 d-flex flex-column justify-content-between" style="width: 15rem">
+                    <img src="pictures/seven-mile-beach Jamaica.jpg" class="card-img-top" alt="Beach Jamaica: Seven Mile">
+                    <div class="card-body">
+                        <h6 class="card-title user-select-none">Seven Mile Beach</h6>
+                        <h6 class="card-title user-select-none">Jamaica</h6>
+                        <p class="card-text small user-select-none">Look down the coastline here and white sand is lapped by clear water that glistens in the sunlight as far as the eye can see.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://zoom.earth/#view=7.677817,98.76678,17z" class="btn-lg btn-outline-primary
+                        rounded-pill" data-toggle="tooltip" title="view satellite image">Jamaica</a>
+                        <div class="tooltip bs-tooltip-top" role="tooltip">
+                            <div class="arrow"></div>
+                            <div class="tooltip-inner">
+                                Thailand
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col">
-            <div class="card text-center my-4 h-100" style="width: 18rem">
-                <img src="pictures/Manuel-Antonio Costa-Rica.jpg" class="card-img-top" alt="Beach Costa Rica: Manuel Antonio">
-                <div class="card-body">
-                    <h5 class="card-title">Manuel Antonio, Costa Rica</h5>
-                    <p class="card-text">It’s part of Manuel Antonio National Park, near Quepos in North Puntarenas on
-                        the Pacific Coast.</p>
+            <div class="col">
+                <div class="card text-center my-4 h-100 d-flex flex-column justify-content-between" style="width: 15rem">
+                    <img src="pictures/Sandy-Lane Barbados-with-coconut-palms-and-white-sands.jpg" class="card-img-top" alt="Beach Barbados: Sandy Lane">
+                    <div class="card-body">
+                        <h6 class="card-title user-select-none">Sandy Lane Beach</h6>
+                        <h6 class="card-title user-select-none">Barbados</h6>
+                        <p class="card-text small user-select-none">This beach has been described as the ‘playground of the rich and famous’</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://zoom.earth/#view=7.677817,98.76678,17z" class="btn-lg btn-outline-primary
+                        rounded-pill" data-toggle="tooltip" title="view satellite image">Barbados</a>
+                        <div class="tooltip bs-tooltip-top" role="tooltip">
+                            <div class="arrow"></div>
+                            <div class="tooltip-inner">
+                                Thailand
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <a href="https://www.youtube.com/watch?v=MbheYh3A_8Y" class="btn btn-primary">Costa Rica</a>
+            </div>
+
+            <div class="col">
+                <div class="card text-center my-4 h-100 d-flex flex-column justify-content-between" style="width: 15rem">
+                    <img src="pictures/Ile-aux-Cerfs-Beach Mauritius.jpg" class="card-img-top" alt="Beach Mauritius: Ile aux Cerfs">
+                    <div class="card-body">
+                        <h6 class="card-title user-select-none">Ile aux Cerfs Beach</h6>
+                        <h6 class="card-title user-select-none">Mauritius</h6>
+                        <p class="card-text small user-select-none">There’s This romantic beach is situated on an island within the country’s biggest lagoon and can only be reached by boat.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://zoom.earth/#view=7.677817,98.76678,17z" class="btn-lg btn-outline-primary
+                        rounded-pill" data-toggle="tooltip" title="view satellite image">Mauritius</a>
+                        <div class="tooltip bs-tooltip-top" role="tooltip">
+                            <div class="arrow"></div>
+                            <div class="tooltip-inner">
+                                Thailand
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card text-center my-4 h-100 d-flex flex-column justify-content-between" style="width: 15rem">
+                    <img src="pictures/Manuel-Antonio Costa-Rica.jpg" class="card-img-top" alt="Beach Costa Rica: Manuel Antonio">
+                    <div class="card-body">
+                        <h6 class="card-title user-select-none">Manuel Antonio</h6>
+                        <h6 class="card-title user-select-none">Costa Rica</h6>
+                        <p class="card-text small user-select-none">It’s part of Manuel Antonio National Park, near Quepos in North Puntarenas on the Pacific Coast.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://zoom.earth/#view=7.677817,98.76678,17z" class="btn-lg btn-outline-primary
+                        rounded-pill" data-toggle="tooltip" title="view satellite image">Costa Rica</a>
+                        <div class="tooltip bs-tooltip-top" role="tooltip">
+                            <div class="arrow"></div>
+                            <div class="tooltip-inner">
+                                Thailand
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+  </div>
 </div>
-</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
 </body>
 </html>
